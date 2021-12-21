@@ -18,8 +18,8 @@ function bs2bs(v,b1,b2) {
   
   for (let i = 0; i < v2.length; i++) {
    v22+=v2[v2.length-1-i]}
-  console.log(v22)} else {
-  console.log(b10)
+   console.log(v22)} else {
+   console.log(b10)
  }
 }
 
@@ -30,7 +30,7 @@ while (stp!="y"){
  v = prompt('insert a value')
  b1 = parseInt(prompt('base of this value'))
  b2 = parseInt(prompt('base that you wanna convert'))
-  bs2bs(v,b1,b2);
-  stp= prompt("Stop? Yes(Y) or No(N)")
-  stp= stp.toLowerCase()
+ bs2bs(v,b1,b2);
+ stp= prompt("Stop? Yes(Y) or No(N)")
+ stp= stp.toLowerCase()
 }
